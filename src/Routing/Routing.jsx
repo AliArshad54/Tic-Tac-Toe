@@ -8,8 +8,8 @@ const Routing = () => {
    <>
     <Routes>
       {/* <Route exact path='/' Component={Login}/> */}
-        <Route exact path='/' Component={Signup}/>
-        <Route exact path='/game' Component={Game}/>
+        <Route exact path='/' element={<Signup/>}/>
+        <Route exact path='/game' element={<Game/>}/>
     </Routes>
    </>
   )
